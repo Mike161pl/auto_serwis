@@ -1,0 +1,13 @@
+.galery {
+	display:flex;
+	justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    img{
+        display: block;
+        width: 300px;
+        flex-basis: 25%;
+        padding: 10px;
+    }
+}
