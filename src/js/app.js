@@ -62,6 +62,7 @@ const handleCurrentYear = () => {
     footerYear.innerText = year;
 }
 
+
 handleCurrentYear();
 navBtn.addEventListener('click', handleNav);
 window.addEventListener('scroll', handleObserver)
