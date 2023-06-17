@@ -1,18 +1,19 @@
 $(document).ready(function () {
-    $('.gallery__boxes').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        arrows: false,
-        mobileFirst: true,
-        responsive: [{
-            breakpoint: 700,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        }],
-
-    });
+	$('.gallery__boxes').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 1500,
+		arrows: false,
+		mobileFirst: true,
+		responsive: [
+			{
+				breakpoint: 700,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				},
+			},
+		],
+	})
 })

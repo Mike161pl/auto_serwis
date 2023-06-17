@@ -147,11 +147,11 @@ body {
 	height: 90vh;
 	text-align: center;
 	color: $pure-white;
-	@include heroImages('../img/tlo.jpeg');
+	@include heroImages('/dist/img/tlo-małe.jpg');
 	background-position: center;
 	&__logo {
 		height: 20vh;
-		width: 50%;
+		width: 70%;
 	}
 	&__heading {
 		font-family: 'Montserrat', sans-serif;
@@ -180,6 +180,9 @@ body {
 // MAIN
 // about-us SECTION
 .about {
+	&__main {
+		visibility: hidden;
+	}
 	&__box {
 		display: flex;
 		flex-direction: column;
@@ -212,18 +215,18 @@ body {
 }
 @keyframes slidein {
 	from {
-		transform: translateX(200%);
+		opacity: 0;
 	}
 
 	to {
-		transform: translateX(0);
+		opacity: 1;
 	}
 }
 
 // OFFERS
 .offers {
 	position: relative;
-	@include heroImages('../img/tlo.jpeg');
+	@include heroImages('/dist/img/tlo-małe.jpg');
 	overflow: hidden;
 	.section-heading {
 		color: $pure-white;
@@ -238,6 +241,7 @@ body {
 
 		&-img {
 			width: 100%;
+			height: 100%;
 			transition: transform 0.3s;
 			&:hover {
 				transform: scale(1.1);
@@ -245,22 +249,24 @@ body {
 		}
 
 		&-info {
-			padding: 2em;
+			width: 100%;
+			padding: 1.6rem;
 			background-color: $pure-white;
 			z-index: 10;
 		}
 
 		&-heading {
 			margin-bottom: 0.5em;
-			font-size: 2.4rem;
+			font-size: 2.2rem;
 			font-weight: 700;
 			text-align: center;
 		}
 
 		&-text {
 			margin-bottom: 0.5em;
-			font-size: 1.6rem;
+			font-size: 1.4rem;
 			text-align: center;
+			list-style: none;
 		}
 	}
 }
@@ -295,15 +301,15 @@ body {
 			transition: transform 1s, opacity 1s;
 
 			&--first {
-				background-image: url('../img/trojkat.jpg');
+				background-image: url('/dist/img/trojkat.jpg');
 			}
 
 			&--second {
-				background-image: url('../img/spawanie.jpg');
+				background-image: url('/dist/img/spawanie.jpg');
 			}
 
 			&--third {
-				background-image: url('../img/dojazd.jpg');
+				background-image: url('/dist/img/klima.jpg');
 			}
 
 			&-title {
@@ -455,7 +461,7 @@ body {
 		&:hover {
 			color: $pure-white;
 		}
-		&:hover +{
+		&:hover + {
 			.contact__span {
 				visibility: visible;
 			}
@@ -469,7 +475,7 @@ body {
 		font-size: 2.4rem;
 		font-weight: bold;
 		color: $dark;
-		transition:visibility 0.3s,color .3s;
+		transition: visibility 0.3s, color 0.3s;
 	}
 	.white-block-left {
 		background-color: $dark;
@@ -561,7 +567,7 @@ body {
 		visibility: hidden;
 		padding: 1rem;
 		font-size: 2rem;
-		transition:visibility 0.3s;
+		transition: visibility 0.3s;
 	}
 	&__bottom-text {
 		padding: 2em;
@@ -654,6 +660,9 @@ body {
 	}
 
 	.header {
+		&__logo {
+			width: 60%;
+		}
 		&__heading {
 			font-size: 4rem;
 		}
@@ -757,7 +766,7 @@ body {
 			}
 		}
 	}
-	.footer{
+	.footer {
 		&__ad {
 			width: 20%;
 		}
@@ -765,6 +774,12 @@ body {
 }
 
 @media (min-width: 1100px) {
+	.header {
+		background-image: url('/dist/img/tlo.jpeg');
+	}
+	.offers {
+		background-image: url('/dist/img/tlo.jpeg');
+	}
 	.extras {
 		&__card {
 			width: 30%;

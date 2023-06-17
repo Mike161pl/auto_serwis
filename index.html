@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Serwis_Łuka</title>
+    <title>Łuka Auto_Serwis-Twój mechanik na Orawie!</title>
+    <meta name="description" content="Jeśli szukasz najlepszego mechanika w Lipnicy Wielkiej jak i na Orawie to dobrze trafiłeś. Zapraszamy do naszego serwisu!!!">
+    <meta name="keywords" content="najlepszy mechanik,Lipnica Wielka,  na Orawie,naprawy samochodów">
+    
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,16 +17,14 @@
     <script src="https://kit.fontawesome.com/c714fecd89.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="dist/css/main.min.css">
-
-
 </head>
+
 <body>
     <button class="burger-btn">
     <div class="burger-btn__box">
         <div class="burger-btn__bars"></div>
     </div>
 </button>
-
 <nav class="nav">
     <div class="nav__items">
         <a href="#about" class="nav__item">O Nas</a>
@@ -40,45 +42,47 @@
     <a href="#contact" class="header__btn btn-special-animation">Kontakt</a>
     <div class="white-block white-block-left"></div>
 </header>
-    <main class="main"> 
+    <main class="main">
         <section class="about section-padding section white-section" id="about">
     <div class="wrapper">
         <h2 class="section-heading">O Nas</h2>
-        <div class="about__box main-box">
-            <div class="about__box-img">
-                <img src="dist/img/warszat.jpg" alt="mechanik wyciera ręce" class="about__img">
+        <div class="about__main">
+            <div class="about__box ">
+                <div class="about__box-img">
+                    <img src="dist/img/warszat.jpg" alt="mechanik wyciera ręce" class="about__img">
+                </div>
+                <div class="about__box-text">
+                    <h3 class="about__title">Coś więcej o Nas</h3>
+                    <p class="about__text">Twój samochód w dobrych rękach!!! Zapewniam pełen zakres profesjonalnie
+                        wykonanych usług naprawczych jak i elektromechaniki pojazdu. Stawiam na jakość i dobry
+                        kontakt z klientem. W przypadku nieoczekiwanej awarii pojazdu możliwy dojazd do klienta.
+                        Jestem do twojej dyspozycji zawsze kiedy potrzebny Ci DOBRY MECHANIK!!!</p>
+                </div>
             </div>
-            <div class="about__box-text">
-                <h3 class="about__title">Więcej o Nas</h3>
-                <p class="about__text">Twój samochód w dobrych rękach!!! Zapewniam pełen zakres profesjonalnie
-                    wykonanych usług naprawczych jak i elektromechaniki pojazdu. Stawiam na jakość i dobry
-                    kontakt z klientem. W przypadku nieoczekiwanej awarii pojazdu możliwy dojazd do klienta.
-                    Jestem do twojej dyspozycji zawsze kiedy potrzebny Ci DOBRY MECHANIK!!!</p>
+            <div class="about__box">
+                <div class="about__box-img about__box-img--right">
+                    <img src="dist/img/praktyka.jpg" alt="mechanik wyciera ręce" class="about__img">
+                </div>
+                <div class="about__box-text about__box-text--right">
+                    <h3 class="about__title">Doświadczenie</h3>
+                    <p class="about__text">Posiadamy wieloletnią praktykę zdobywaną w profesjonalnych serwisach
+                        samochodowych w polsce i za granicą.</p>
+                </div>
             </div>
-        </div>
-        <div class="about__box">
-            <div class="about__box-img about__box-img--right">
-                <img src="dist/img/praktyka.jpg" alt="mechanik wyciera ręce" class="about__img">
-            </div>
-            <div class="about__box-text about__box-text--right">
-                <h3 class="about__title">Doświadczenie</h3>
-                <p class="about__text">Posiadamy wieloletnią praktykę zdobywaną w profesjonalnych serwisach
-                    samochodowych za granicą.</p>
-            </div>
-        </div>
-        <div class="about__box">
-            <div class="about__box-img">
-                <img src="dist/img/pasja.jpg" alt="mechanik naprawiający garbusa w warsztacie" class="about__img">
-            </div>
-            <div class="about__box-text">
-                <h3 class="about__title">Pracujemy z pasją</h3>
-                <p class="about__text">Mechanika to Nasza pasja dlatego otworzyliśmy własny warsztat w którym
-                    Twój samochód będzie traktowany jak własny.</p>
+            <div class="about__box">
+                <div class="about__box-img">
+                    <img src="dist/img/pasja.jpg" alt="mechanik naprawiający garbusa w warsztacie" class="about__img">
+                </div>
+                <div class="about__box-text">
+                    <h3 class="about__title">Pracujemy z pasją</h3>
+                    <p class="about__text">Mechanika to Nasza pasja dlatego otworzyliśmy własny warsztat w którym
+                        wszystkie samochody będą traktowane jak własny.</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
-         <section class="offers section-padding section" id="offers">
+        <section class="offers section-padding section" id="offers">
     <div class="white-block white-block-right"></div>
     <div class="white-block white-block-left"></div>
     <h2 class="section-heading">Oferujemy:</h2>
@@ -88,10 +92,9 @@
                 <img src="dist/img/diagnostyka.jpg" alt="komputer nad maską samochodu" class="offers__option-img">
                 <div class="offers__option-info">
                     <h3 class="offers__option-heading">Diagnostyka</h3>
-                    <p class="offers__option-text">Oferujemy diagnostykę komputerową jak i mechaniczną.
+                    <p class="offers__option-text">Oferujemy diagnostykę komputerową jak i mechaniczną. Kompletny serwis oraz inspekcję pojazdu.
                     </p>
                     <p class="offers__option-text">Posiadamy najnowszy sprzęt, jak i duże doświadczenie.</p>
-
                 </div>
             </div>
             <div class="offers__option">
@@ -104,31 +107,28 @@
                     </p>
                     <p class="offers__option-text">Programujemy czujniki TMPS
                     </p>
-
                 </div>
             </div>
             <div class="offers__option">
                 <img src="dist/img/tarcza.jpg" alt="Tarcza hamulcowa" class="offers__option-img">
                 <div class="offers__option-info">
-                    <h3 class="offers__option-heading">Naprawy układów</h3>
-                    <p class="offers__option-text">Naprawiamy wszelkie układy zawieszenia, hamulcowe, wydechowe,
-                        etc.
-                    </p>
-                    <p class="offers__option-text"></p>
-
+                    <h3 class="offers__option-heading">Naprawy:</h3>
+                    <ul class="offers__option-text">
+                        <li>Układów hamulcowych</li>
+                        <li>układów zawieszenia</li>
+                        <li>układów wydechowych </li>
+                        <li>pasków/łańcuchów rozrządu</li>
+                        <li>samochodów powypadkowych</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 </section>
-          <section class="extras section-padding section white-section">
-
+        <section class="extras section-padding section white-section">
     <div class="wrapper">
         <h2 class="section-heading">Dodatkowe usługi:</h2>
-
         <div class="extras__cards">
-
-
             <div class="extras__card" onclick="void(0)">
                 <div class="extras__card-img extras__card-img--first">
                     <h3 class="extras__card-img-title">Wypożyczalnia</h3>
@@ -142,7 +142,6 @@
                         <li class="extras__card-info-list-item">Zagęszczarkę</li>
                         <li class="extras__card-info-list-item">Lawetę o ładowności 2120kg</li>
                         <li class="extras__card-info-list-item">Możliwy dowóz</li>
-
                     </ul>
                 </div>
             </div>
@@ -162,25 +161,25 @@
             </div>
             <div class="extras__card" onclick="void(0)">
                 <div class="extras__card-img extras__card-img--third">
-                    <h3 class="extras__card-img-title">Dodatkowo</h3>
+                    <h3 class="extras__card-img-title">Klimatyzacja</h3>
                     <p class="extras__card-img-info"> <i class="fas fa-angle-double-right"></i> Więcej
                         informacji</p>
                 </div>
                 <div class="extras__card-info">
-                    <h3 class="extras__card-info-title">Możemy</h3>
+                    <h3 class="extras__card-info-title">Klimatyzacja</h3>
                     <ul class="extras__card-info-list">
-                        <li class="extras__card-info-list-item">Dojechać do klienta</li>
-                        <li class="extras__card-info-list-item">Wymienić szyby</li>
-                        <li class="extras__card-info-list-item">Naprawić powypadkowy pojazd</li>
+                        <li class="extras__card-info-list-item">sezonowa obsługa klimatyzacji</li>
+                        <li class="extras__card-info-list-item">odgrzybianie klimatyzacji</li>
+                        <li class="extras__card-info-list-item">dobijanie czynnika</li>
+                        <li class="extras__card-info-list-item">naprawa układów klimatyzacji</li>
                 </div>
             </div>
         </div>
     </div>
 </section>
-            <section class="gallery section-padding section white-section" id="gallery">
+        <section class="gallery section-padding section white-section" id="gallery">
     <h2 class="section-heading">Galeria</h2>
     <div class="wrapper">
-
         <div class="gallery__boxes">
             <div class="gallery__box">
                 <div class="gallery__img">
@@ -212,10 +211,8 @@
             </div>
         </div>
     </div>
-    <a href="./page.html" target="_blank" class="gallery__btn btn-special-animation">Przejdź do galerii</a>
-    
+    <a href="./galeria.html" target="_blank" class="gallery__btn btn-special-animation">Przejdź do galerii</a>
 </section>
-
         <section id="contact" class="contact section-padding section white-section">
     <div class="white-block white-block-left"></div>
     <div class="white-block white-block-right"></div>
@@ -242,17 +239,16 @@
 </section>
     </main>
     <footer class="footer">
-
     <span class="footer__ad">
-        <a href="/dist/img/strona w budowie.jpg" target="blank"><img class="footer__img" src="dist/img/bus.jpg" alt=""></a>
-
+        <a href="https://www.facebook.com/profile.php?id=100016939122211" target="_blank"><img class="footer__img"
+                src="dist/img/bus.jpg" alt=""></a>
         <p class="footer__text">Potrzebujesz transportu? Kliknij w zdjęcie a dowiesz się więcej!
         </p>
     </span>
     <p class="footer__bottom-text"> &copy; <span class="footer__year"></span>
         <span class="footer__author">Wykonane przez Mike</span>
-        <a href="https://www.facebook.com/profile.php?id=100016939122211" target="_blank"
-            class="footer__box-link"><i class="fab fa-facebook-square"></i>
+        <a href="https://www.facebook.com/profile.php?id=100016939122211" target="_blank" class="footer__box-link"><i
+                class="fab fa-facebook-square"></i>
         </a>
         <a href="tel:+48669743259" class="footer__box-link"><i class="fa-solid fa-phone"></i><span
                 class="footer__span">+48669743259</span></a>
@@ -261,7 +257,6 @@
     <script type='text/javascript'
         src='https://www.counterliczniki.com/auth.php?id=cc83b2146ced58ce5582df56b5064a23b30e7de1'></script>
     <script type="text/javascript" src="https://www.counterliczniki.com/pl/home/counter/1042166/t/5"></script>
-
 </footer>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -269,4 +264,5 @@
     <script src="dist/js/slick.min.js"></script>
     <script src="dist/js/app.min.js"></script>
 </body>
+
 </html>
