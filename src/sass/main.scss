@@ -147,7 +147,7 @@ body {
 	height: 90vh;
 	text-align: center;
 	color: $pure-white;
-	@include heroImages('/dist/img/tlo-małe.jpg');
+	@include heroImages('../img/tlo-małe.jpg');
 	background-position: center;
 	&__logo {
 		height: 20vh;
@@ -226,7 +226,7 @@ body {
 // OFFERS
 .offers {
 	position: relative;
-	@include heroImages('/dist/img/tlo-małe.jpg');
+	@include heroImages('../img/tlo-małe.jpg');
 	overflow: hidden;
 	.section-heading {
 		color: $pure-white;
@@ -301,15 +301,15 @@ body {
 			transition: transform 1s, opacity 1s;
 
 			&--first {
-				background-image: url('/dist/img/trojkat.jpg');
+				background-image: url('../img/trojkat.jpg');
 			}
 
 			&--second {
-				background-image: url('/dist/img/spawanie.jpg');
+				background-image: url('../img/spawanie.jpg');
 			}
 
 			&--third {
-				background-image: url('/dist/img/klima.jpg');
+				background-image: url('../img/klima.jpg');
 			}
 
 			&-title {
