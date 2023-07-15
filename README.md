@@ -1,7 +1,7 @@
 
 
 
-# Project Project Auto-Serwis
+# Project Auto-Serwis
 See the live version of [AutoSerwis](https://lukaautoserwis.com/).
 
 
@@ -40,8 +40,8 @@ This is my first commercial project in which I used my previous knowledge of HTM
 
  
 - example with a screenshot
-[screen](./screen-fullsize.png)
-[screen](./screen-mobile.png)
+![screen](./screen-fullsize.png)
+![screen](./screen-mobile.png)
 
 
 &nbsp;
